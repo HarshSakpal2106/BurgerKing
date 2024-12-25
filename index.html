@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/1a2e040597.js" crossorigin="anonymous"></script>
+  <title>Burger King</title>
+</head>
+
+<body>
+  <div id="homeScreen">
+    <div class="header">
+      <div class="toggle-div">
+        <img src="/hamburger-menu-dinein.svg" id="hamburgerMenuBtn">
+        <div class="toggle-switch-container">
+          <span id="deliveryLabel">DELIVERY</span>
+          <div class="toggle-switch">
+            <input type="checkbox" id="toggle" checked>
+            <label for="toggle" class="switch"></label>
+          </div>
+          <span id="dineInLabel">DINE-IN/TAKEAWAY</span>
+        </div>
+        <i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
+      </div>
+      <div id="locateStoreBar">
+        <i class="fa-solid fa-location-dot" id="locationPin"></i>
+        <span>No Stores Nearby</span>
+      </div>
+    </div>
+    <div class="menu-container">
+      <span class="menu-heading">OUR MENU</span>
+      <button id="seeAllBtn">See All <i class="fa-solid fa-angle-right"></i></button>
+      <div class="menu-slider">
+
+      </div>
+    </div>
+    <div class="bk-recommended-container">
+      <span>BK RECOMMENDED</span>
+      <div class="bk-recommended-slider">
+        <div class="bk-recommended-card">
+          <img src="/chocolate-thick-shake.jpeg">
+        </div>
+        <div class="bk-recommended-card">
+          <img src="/periperi.jpeg">
+        </div>
+        <div class="bk-recommended-card">
+          <img src="/boneless-wings.jpeg">
+        </div>
+        <div class="bk-recommended-card">
+          <img src="/bk-veggie.jpeg">
+        </div>
+      </div>
+    </div>
+    <div id="exploreMenuBtn">
+      <span>Explore Full Menu</span>
+    </div>
+    <div class="bk-wall-container">
+      <img src="home-bk-wall.jpg">
+      <span class="disclaimer"><b>Disclaimer : </b>All images used are illustrative and strictly for representational purpose only</span>
+    </div>
+  </div>
+  <div id="kingDealsScreen">
+    <div class="header-deals">
+      <span class="header-title-deals">KING DEALS</span>
+      <div class="score">
+        <img src="crown.png">
+        <span>0</span>
+      </div>
+    </div>
+    <div class="top-deals-container">
+      <span>TOP DEALS</span>
+      <div class="top-deals-slider">
+        <div class="top-deals-card">
+          <img src="/large-fries.jpeg">
+        </div>
+        <div class="top-deals-card">
+          <img src="/periperi.jpeg">
+        </div>
+      </div>
+    </div>
+    <div class="limited-time-deals-container">
+      <span class="limited-deals-title">LIMITED TIME DEALS</span>
+      <div class="time-deals-button-grp">
+        <button id="k-DealsBtn" class="time-deals-btn time-deals-btn-active">King Deals</button>
+        <button id="crownRewardsBtn" class="time-deals-btn">Crown Rewards</button>
+      </div>
+      <div id="crown-rewards-container">
+        <!-- CARDS GENERATED WITH JS -->
+      </div>
+      <span id="no-offers-available">NO OFFERS AVAILABLE !!!</span>
+    </div>
+    <img src="how-it-works.jpg" class="how-it-works-img">
+    <span class="disclaimer"><b>Disclaimer : </b>All images used are illustrative and strictly for representational purpose only</span>
+  </div>
+  <div id="findBKScreen">
+    <div class="findBK-header">
+      <button id="backBtn"><i class="fa-solid fa-arrow-left"></i></button>
+      <span>FIND A BK</span>
+    </div>
+    <div class="search-bar-box">
+      <div class="search-bar">
+        <input type="text" placeholder="Search for your location" id="searchBar">
+        <label for="input"><i class="fa-solid fa-magnifying-glass" id="findBKSearchBtn"></i></label>
+        <button id="clearBtn">Clear</button>
+      </div>
+    </div>
+    <div id="restaurant-container">
+      <!-- CARDS CREATED USING JS -->
+    </div>
+  </div>
+  <div id="menuScreen">
+    <div class="menu-header">
+      <button id="backBtn-menu"><i class="fa-solid fa-arrow-left"></i></button>
+      <span>OUR MENU</span>
+    </div>
+    <div class="menu-options-products">
+      <div class="menu-options">
+        <div class="menu-options-card" id="menuOption1">
+          <img src="menu-options-1.jpeg">
+          <span>Rs.139 Deal of the Day</span>
+        </div>
+        <div class="menu-options-card" id="menuOption2">
+          <img src="menu-options-2.jpeg">
+          <span>Best of Combos</span>
+        </div>
+        <div class="menu-options-card" id="menuOption3">
+          <img src="menu-options-3.jpeg">
+          <span>Whopper</span>
+        </div>
+        <div class="menu-options-card" id="menuOption4">
+          <img src="menu-options-4.jpeg">
+          <span>Burgers & Wraps</span>
+        </div>
+        <div class="menu-options-card" id="menuOption5">
+          <img src="menu-options-5.jpeg">
+          <span>Kings Premium</span>
+        </div>
+        <div class="menu-options-card" id="menuOption6">
+          <img src="menu-options-6.jpeg">
+          <span>Snacks</span>
+        </div>
+        <div class="menu-options-card" id="menuOption7">
+          <img src="menu-options-7.jpeg">
+          <span>Beverages</span>
+        </div>
+        <div class="menu-options-card" id="menuOption8">
+          <img src="menu-options-8.jpeg">
+          <span>BK Cafe</span>
+        </div>
+      </div>
+      <div class="menu-products"></div>
+    </div>
+  </div>
+  <div id="profileModal">
+    <i class="fa-solid fa-arrow-left" id="profileModalBackBtn"></i>
+    <div id="loginWrapper">
+      <img src="bkLogo.png">
+      <h1>Login</h1>
+      <span class="enter-number-text">Enter your mobile number to proceed</span>
+      <form action="" id="loginForm">
+        <div class="input-container">
+          <span>+91</span>
+          <input type="tel" placeholder="Enter your mobile number" required maxlength="10" pattern="\d{10}" id="phoneInput">
+        </div>
+        <button id="phoneNoEnterBtn" disabled>Enter 10 digit phone number</button>
+      </form>
+    </div>
+    <div class="login-wrapper-footer">
+      <span>By continuing, you agree for our <u>Terms & Conditions</u>, <u>Privacy Policy</u>, and <u>Promotional T&C</u>
+      </span>
+      </div>
+    <div id="profileWrapper">
+      <img src="notification-icon.svg" id="notiIcon">
+      <div class="profileWrapper-cards-container">
+        <div class="profWrapper-card">
+          <img src="recent-order-1.svg" class="profWrapper-img">
+          <span class="profWrapper-span">Recent Orders</span>
+        </div>
+        <div class="profWrapper-card">
+          <img src="location-restaurant-1.svg" class="profWrapper-img">
+          <span class="profWrapper-span">Saved Addresses</span>
+        </div>
+        <div class="profWrapper-card">
+          <img src="voucher-icon-restaurant-1.svg" class="profWrapper-img">
+          <span class="profWrapper-span">Saved King Deals</span>
+        </div>
+        <div class="profWrapper-card">
+          <img src="bk-wall-icon-active.svg" class="profWrapper-img">
+          <span class="profWrapper-span">BK Walls</span>
+        </div>
+        <div class="profWrapper-card">
+          <img src="support-icon-1.svg" class="profWrapper-img">
+          <span class="profWrapper-span">FAQ's and Support</span>
+        </div>
+        <div class="profWrapper-card">
+          <img src="settings-1.svg" class="profWrapper-img">
+          <span class="profWrapper-span">Settings</span>
+        </div>
+        <div class="profWrapper-card">
+          <img src="dine-in-brown.svg" class="profWrapper-img">
+          <span class="profWrapper-span">Restaurant Finder</span>
+          <i class="fa-solid fa-angle-right" style="position: absolute; right: 20px"></i>
+        </div>
+      </div>
+      <button id="logoutBtn">Log Out</button>
+    </div>
+  </div>
+  <div class="bottom-nav-bar">
+    <div id="homeBtn">
+      <img src="/homeBtn-active-dinein.svg" id="homeBtnImg">
+      <span>HOME</span>
+    </div>
+    <div id="kingDealsBtn">
+      <img src="/kingDealsBtn-active-dinein.svg" id="kingDealsBtnImg">
+      <span>KING DEALS</span>
+    </div>
+    <div id="nearbyStoresBtn" >
+      <img src="/nearbyStoresBtn-active-dinein.svg" id="nearByStoresBtnImg">
+      <span>NEARBY STORES</span>
+    </div>
+  </div>
+  <div style="height: 50px; width: 100%; background-color: #F7F6F2;" id="bottom-space-bar"></div>
+</body>
+<script src="index.js"></script>
+
+</html>
