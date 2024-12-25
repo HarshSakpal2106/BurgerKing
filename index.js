@@ -15,20 +15,20 @@ profileModalBackBtn.addEventListener("click", () => {
 
 // HOMEPAGE MENU SCROLLER
 const menuList = [
-  { name: "Take Off Combos", image: "/takeoff-combos.jpeg" },
-  { name: "BK Recommended", image: "/bk-recommend.jpeg" },
-  { name: "Value Meals", image: "/value-meals.jpeg" },
-  { name: "Celebration Meals for 2", image: "/celebration-meals-for-two.jpeg" },
-  { name: "Burgers & Wraps", image: "/burgers-and-wraps.jpeg" },
-  { name: "Desserts", image: "/desserts.jpeg" },
-  { name: "Beverages", image: "/beverages.jpeg" },
-  { name: "Snacks", image: "/snacks.jpeg" },
-  { name: "Crazy App Deals", image: "/crazy-app-deals.jpeg" },
-  { name: "Whopper", image: "/whopper.jpeg" },
-  { name: "Premium Burgers", image: "/premium-burgers.jpeg" },
-  { name: "BK Cafe™", image: "/bk-cafe.jpeg" },
-  { name: "2 for Offers", image: "/two-for-offers.jpeg" },
-  { name: "Chicken Wings", image: "/chicken-wings.jpeg" }];
+  { name: "Take Off Combos", image: "takeoff-combos.jpeg" },
+  { name: "BK Recommended", image: "bk-recommend.jpeg" },
+  { name: "Value Meals", image: "value-meals.jpeg" },
+  { name: "Celebration Meals for 2", image: "celebration-meals-for-two.jpeg" },
+  { name: "Burgers & Wraps", image: "burgers-and-wraps.jpeg" },
+  { name: "Desserts", image: "desserts.jpeg" },
+  { name: "Beverages", image: "beverages.jpeg" },
+  { name: "Snacks", image: "snacks.jpeg" },
+  { name: "Crazy App Deals", image: "crazy-app-deals.jpeg" },
+  { name: "Whopper", image: "whopper.jpeg" },
+  { name: "Premium Burgers", image: "premium-burgers.jpeg" },
+  { name: "BK Cafe™", image: "bk-cafe.jpeg" },
+  { name: "2 for Offers", image: "two-for-offers.jpeg" },
+  { name: "Chicken Wings", image: "chicken-wings.jpeg" }];
 
 const menuSlider = document.querySelector('.menu-slider');
 
