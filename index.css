@@ -1007,9 +1007,8 @@ body::-webkit-scrollbar {
   font-family: BK-REGULAR;
   color: white;
   position: absolute;
-  bottom: 45px;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 15px;
+  left: 60px;
   padding: 5px 20px;
 }
 
