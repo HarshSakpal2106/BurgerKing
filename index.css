@@ -860,7 +860,7 @@ body::-webkit-scrollbar {
 /* PROFILE MODAL */
 #profileModal {
   position: absolute;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: white;
   top: 0;
